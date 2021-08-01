@@ -1,0 +1,15 @@
+The rules of play include:
+1. The player will control a ship that shoots when "shift" is pressed from its front.
+2. The player will be able to use left, right, up, and down on the keyboard to control the position of the plane
+3. The player’s HP will start at 10 when the game begins.
+4. When the game starts, there will a random number of enemy ships coming towards the player. Every time the player’s ship is touched by an enemy ship, the player’s HP will decrease by 1.
+5. Once an enemy ship is attacked by the player’s plane, it will be destroyed and will disappear from the screen.
+6. New enemy ships will appear randomly and will increase in frequency as levels change.
+7. As soon as the player’s HP reaches 0, the player loses.
+8. If the player’s HP is greater than 0 at 1 minute after starting the game, the player wins.
+
+This project contains 3 main classes: Spaceship, Enemy, and Lazer. We also created some other classes to help with the functionality: Star  and Timer.
+
+Sprites from the internet were utilized. space.png, for the Spaceship class, was downloaded from https://www.clipartkey.com/view/iRhiwi_8-bit-spaceship-png-8-bit-spaceship-sprites. enemy.png, for the Enemy class, was downloaded and modified from https://www.pngkey.com/detail/u2q8o0w7q8i1t4q8_galaga-enemy-sprite-png-vector-royalty-free-video.
+
+All sounds were downloaded from Zapsplat.com
